@@ -1,16 +1,16 @@
 package com.company;
 
 public class Card {
-    private String type;
+    private String suit;
     private String value;
     private int points;
 
-    public String getType() {
-        return type;
+    public String getSuit() {
+        return suit;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setSuit(String suit) {
+        this.suit = suit;
     }
 
     public String getValue() {
